@@ -1,0 +1,10 @@
+﻿@using SocialNetworkClient.Core
+
+<div class="jumbotron text-center">
+    <h1>ASP.NET OAuth without Identity</h1>
+    <p class="lead">This sample shows how you can use the OAuth providers without having to use ASP.NET Identity</p>
+    @Html.ActionLink("Authenticate with Google", "ExternalLogin", new { provider = SocialNetworkType.Google.ToString() }, new { @class = "btn btn-primary btn-sm" })
+    @Html.ActionLink("Authenticate with GitHub", "ExternalLogin", new { provider = SocialNetworkType.GitHub.ToString() }, new { @class = "btn btn-primary btn-sm" })
+    @Html.ActionLink("Authenticate with Facebook", "ExternalLogin", new { provider = SocialNetworkType.Facebook.ToString() }, new { @class = "btn btn-primary btn-sm" })
+    @Html.ActionLink("Authenticate with Microsoft", "ExternalLogin", new { provider = SocialNetworkType.Microsoft.ToString() }, new { @class = "btn btn-primary btn-sm" })
+</div>

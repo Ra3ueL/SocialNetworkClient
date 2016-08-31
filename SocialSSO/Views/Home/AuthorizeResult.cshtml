@@ -1,0 +1,14 @@
+﻿@model SocialSSOWithoutIdentity.Models.UserDisplayModel
+
+@if (!string.IsNullOrEmpty(Model.AccessToken))
+{
+    <h2>Authorization Details</h2>
+    <p>Access Token: @Model.AccessToken</p>
+    <p>Name: @Model.Name</p>
+    <p>Email: @Model.Email</p>
+    <p>Authorized by: @Model.SocialNetworkName</p>
+}
+else
+{
+    <h2>Authorization failed</h2>
+}

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialSSOWithoutIdentity", "SocialSSO\SocialSSOWithoutIdentity.csproj", "{B74F86B2-22EE-4BBA-8646-EBB067694FF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialNetworkClient", "CNInfo\SocialNetworkClient.csproj", "{29BBA9A0-4030-47D9-955D-3E5E1736EC9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B74F86B2-22EE-4BBA-8646-EBB067694FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74F86B2-22EE-4BBA-8646-EBB067694FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74F86B2-22EE-4BBA-8646-EBB067694FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74F86B2-22EE-4BBA-8646-EBB067694FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BBA9A0-4030-47D9-955D-3E5E1736EC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BBA9A0-4030-47D9-955D-3E5E1736EC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BBA9A0-4030-47D9-955D-3E5E1736EC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BBA9A0-4030-47D9-955D-3E5E1736EC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
