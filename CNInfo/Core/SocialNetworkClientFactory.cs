@@ -29,7 +29,7 @@
             }
             else
             {
-                throw new ArgumentException("Specific client was not found in namespace SocialNetworkClient.Clients");
+                throw new SocialNetworkException("Specific client was not found in namespace SocialNetworkClient.Clients");
             }
 
             return client;
