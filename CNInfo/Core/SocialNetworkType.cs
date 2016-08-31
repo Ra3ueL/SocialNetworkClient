@@ -23,6 +23,11 @@
         /// <summary>
         /// The Microsoft
         /// </summary>
-        Microsoft
+        Microsoft,
+
+        /// <summary>
+        /// The LinkedIn
+        /// </summary>
+        LinkedIn
     }
 }
