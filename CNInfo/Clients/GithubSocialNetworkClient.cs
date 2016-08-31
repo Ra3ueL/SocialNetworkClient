@@ -6,7 +6,7 @@
     using System.Threading.Tasks;
     using ClientsModels;
 
-    internal class GithubSocialNetworkClient : SocialNetworkClientBase
+    internal class GitHubSocialNetworkClient : SocialNetworkClientBase
     {
         public const string SocialNetworkName = "GitHub";
 
@@ -18,7 +18,7 @@
 
         private const string UserAgent = "Mozilla/5.0 (Windows NT 6.2; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0";
 
-        public GithubSocialNetworkClient(string token)
+        public GitHubSocialNetworkClient(string token)
             : base(token, AddressApi)
         {
         }
