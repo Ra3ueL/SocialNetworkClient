@@ -12,6 +12,7 @@
     using Microsoft.Owin.Security.Twitter;
     using Owin;
     using Owin.Security.Providers.GitHub;
+    using Owin.Security.Providers.LinkedIn;
 
     public class Startup
     {
@@ -30,6 +31,7 @@
             app.UseGoogleAuthentication(authOptions.GetGoogleAuthOptions());
             app.UseGitHubAuthentication(authOptions.GetGithubAuthOptions());
             app.UseFacebookAuthentication(authOptions.GetFacebookAuthOptions());
+            app.UseLinkedInAuthentication(authOptions.GetLinkedinAuthOptions());
         }
 
         protected class ChallengeResult : HttpUnauthorizedResult

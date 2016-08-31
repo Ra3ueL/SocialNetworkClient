@@ -52,13 +52,16 @@
   <ItemGroup>
     <Compile Include="ClientsModels\GithubApiUserModel.cs" />
     <Compile Include="ClientsModels\BaseApiUserModel.cs" />
+    <Compile Include="ClientsModels\LinkedInUserModel.cs" />
     <Compile Include="ClientsModels\MicrosoftApiUserModel.cs" />
     <Compile Include="ClientsModels\UserInfo.cs" />
     <Compile Include="Clients\FacebookSocialNetworkClient.cs" />
     <Compile Include="Clients\GithubSocialNetworkClient.cs" />
     <Compile Include="Clients\GoogleSocialNetworkClient.cs" />
+    <Compile Include="Clients\LinkedinSocialNetworkClient.cs" />
     <Compile Include="Clients\MicrosoftSocialNetworkClient.cs" />
     <Compile Include="Core\SocialNetworkClientFactory.cs" />
+    <Compile Include="Core\SocialNetworkException.cs" />
     <Compile Include="Core\SocialNetworkType.cs" />
     <Compile Include="Interfaces\ISocialNetworkClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

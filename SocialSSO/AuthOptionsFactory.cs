@@ -11,6 +11,7 @@
     using Microsoft.Owin.Security.Twitter;
 
     using Owin.Security.Providers.GitHub;
+    using Owin.Security.Providers.LinkedIn;
 
     using SocialNetworkClient.Core;
 
@@ -35,6 +36,8 @@
         /// Gets Microsoft options for authenticate
         /// </summary>
         MicrosoftAccountAuthenticationOptions GetMicrosoftAuthOptions();
+
+        LinkedInAuthenticationOptions GetLinkedinAuthOptions();
     }
 
     internal class AuthOptionsFactory : IAuthOptionsFactory
@@ -111,6 +114,24 @@
                     {
                         context.Identity.AddClaim(new Claim(SocialNetworkType.Microsoft.ToString(), context.AccessToken));
                         
+                        return Task.FromResult(true);
+                    }
+                }
+            };
+        }
+
+        public LinkedInAuthenticationOptions GetLinkedinAuthOptions()
+        {
+            return new LinkedInAuthenticationOptions
+            {
+                ClientId = "78ano9mv9udd9a",
+                ClientSecret = "GSgGRDqB4tFHoGLT",
+                Provider = new LinkedInAuthenticationProvider()
+                {
+                    OnAuthenticated = context =>
+                    {
+                        context.Identity.AddClaim(new Claim(SocialNetworkType.LinkedIn.ToString(), context.AccessToken));
+
                         return Task.FromResult(true);
                     }
                 }
