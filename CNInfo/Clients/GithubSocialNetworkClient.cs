@@ -4,7 +4,7 @@
     using System.Linq;
     using System.Net.Http;
     using System.Threading.Tasks;
-    using SocialNetworkClient.ClientsModels;
+    using ClientsModels;
 
     internal class GithubSocialNetworkClient : SocialNetworkClientBase
     {
@@ -15,6 +15,8 @@
         private const string AddressGetUserName = "user";
 
         private const string AddressGetUserEmail = "user/emails";
+
+        private const string UserAgent = "Mozilla/5.0 (Windows NT 6.2; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0";
 
         public GithubSocialNetworkClient(string token)
             : base(token, AddressApi)
@@ -34,7 +36,7 @@
         protected override HttpRequestMessage CreateMessage(HttpMethod method, string relativeUrl, IDictionary<string, string> parameters)
         {
             var requestMessage = base.CreateMessage(method, relativeUrl, parameters);
-            requestMessage.Headers.Add("User-Agent", "Mozilla/5.0 (Windows NT 6.2; WOW64; rv:19.0) Gecko/20100101 Firefox/19.0");
+            requestMessage.Headers.Add("User-Agent", UserAgent);
 
             return requestMessage;
         }
