@@ -124,8 +124,8 @@
         {
             return new LinkedInAuthenticationOptions
             {
-                ClientId = "78zmra7m2k34yc",
-                ClientSecret = "OQB5qQc0yfW12Qlv",
+                ClientId = "78ano9mv9udd9a",
+                ClientSecret = "GSgGRDqB4tFHoGLT",
                 Provider = new LinkedInAuthenticationProvider()
                 {
                     OnAuthenticated = context =>
