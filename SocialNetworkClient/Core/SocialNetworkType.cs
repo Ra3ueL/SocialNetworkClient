@@ -1,4 +1,4 @@
-﻿namespace SocialNetworkClient.Core
+﻿namespace Epam.SocialNetworkClient.Core
 {
     /// <summary>
     /// Types of social networks

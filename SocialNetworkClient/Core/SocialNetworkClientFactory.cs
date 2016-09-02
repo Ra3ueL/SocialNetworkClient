@@ -1,9 +1,11 @@
-﻿namespace SocialNetworkClient.Core
+﻿namespace Epam.SocialNetworkClient.Core
 {
     using System;
     using System.Linq;
     using System.Reflection;
-    using Interfaces;
+
+    using global::SocialNetworkClient.Core;
+    using global::SocialNetworkClient.Interfaces;
 
     public static class SocialNetworkClientFactory
     {

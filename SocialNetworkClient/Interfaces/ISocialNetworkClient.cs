@@ -1,7 +1,8 @@
-﻿namespace SocialNetworkClient.Interfaces
+﻿namespace Epam.SocialNetworkClient.Interfaces
 {
     using System.Threading.Tasks;
-    using SocialNetworkClient.ClientsModels;
+
+    using Epam.SocialNetworkClient.ClientsModels;
 
     /// <summary>
     /// Client for sign in from Google, Facebook etc.

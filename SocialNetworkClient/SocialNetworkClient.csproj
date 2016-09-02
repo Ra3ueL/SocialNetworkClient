@@ -7,8 +7,8 @@
     <ProjectGuid>{29BBA9A0-4030-47D9-955D-3E5E1736EC9A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SocialNetworkClient</RootNamespace>
-    <AssemblyName>SocialNetworkClient</AssemblyName>
+    <RootNamespace>Epam.SocialNetworkClient</RootNamespace>
+    <AssemblyName>Epam.SocialNetworkClient</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -1,8 +1,10 @@
-﻿namespace SocialNetworkClient.Clients
+﻿namespace Epam.SocialNetworkClient.Clients
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;
-    using ClientsModels;
+
+    using global::SocialNetworkClient.Clients;
+    using global::SocialNetworkClient.ClientsModels;
 
     internal class GoogleSocialNetworkClient : SocialNetworkClientBase
     {

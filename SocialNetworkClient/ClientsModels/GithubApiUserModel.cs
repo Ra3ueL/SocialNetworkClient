@@ -1,4 +1,4 @@
-namespace SocialNetworkClient.ClientsModels
+namespace Epam.SocialNetworkClient.ClientsModels
 {
     using Newtonsoft.Json;
 

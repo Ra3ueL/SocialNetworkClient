@@ -1,4 +1,4 @@
-﻿namespace SocialNetworkClient.Clients
+﻿namespace Epam.SocialNetworkClient.Clients
 {
     using System;
     using System.Collections.Generic;
@@ -7,8 +7,9 @@
     using System.Net.Http.Headers;
     using System.Threading.Tasks;
     using System.Web;
-    using ClientsModels;
-    using Interfaces;
+
+    using Epam.SocialNetworkClient.ClientsModels;
+    using Epam.SocialNetworkClient.Interfaces;
 
     internal abstract class SocialNetworkClientBase : ISocialNetworkClient
     {

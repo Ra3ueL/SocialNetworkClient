@@ -1,4 +1,4 @@
-﻿namespace SocialNetworkClient.Clients
+﻿namespace Epam.SocialNetworkClient.Clients
 {
     using System.Collections.Generic;
     using System.Threading.Tasks;
