@@ -252,7 +252,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CNInfo\SocialNetworkClient.csproj">
+    <ProjectReference Include="..\SocialNetworkClient\SocialNetworkClient.csproj">
       <Project>{29bba9a0-4030-47d9-955d-3e5e1736ec9a}</Project>
       <Name>SocialNetworkClient</Name>
     </ProjectReference>
