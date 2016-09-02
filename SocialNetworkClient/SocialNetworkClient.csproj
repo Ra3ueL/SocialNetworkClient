@@ -56,7 +56,7 @@
     <Compile Include="ClientsModels\MicrosoftApiUserModel.cs" />
     <Compile Include="ClientsModels\UserInfo.cs" />
     <Compile Include="Clients\FacebookSocialNetworkClient.cs" />
-    <Compile Include="Clients\GithubSocialNetworkClient.cs" />
+    <Compile Include="Clients\GitHubSocialNetworkClient.cs" />
     <Compile Include="Clients\GoogleSocialNetworkClient.cs" />
     <Compile Include="Clients\LinkedinSocialNetworkClient.cs" />
     <Compile Include="Clients\MicrosoftSocialNetworkClient.cs" />
